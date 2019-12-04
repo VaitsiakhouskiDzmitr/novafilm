@@ -12,4 +12,4 @@ class PostAdmin(admin.ModelAdmin):              #отображение моде
     ordering = ['publish']
 
 
-admin.site.register(Post, PostAdmin)               #добавляем модель Пост в Админку сайта, для управления постами
+admin.site.register(Post, PostAdmin)                #добавляем модель Пост в Админку сайта, для управления постами

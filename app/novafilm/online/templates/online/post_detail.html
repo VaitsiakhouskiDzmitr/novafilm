@@ -1,9 +1,13 @@
-{% extends "online/base.html" %}
-{% block title %}{{ post.title }}{% endblock %}
+{% extends "online/base_online.html" %}
+
 {% block content %}
     <h1>{{ post.title }}</h1>
     <p class="date">
         Published {{ post.publish }}
     </p>
 {{ post.body|linebreaks }}
+
+
+
+
 {% endblock %}
